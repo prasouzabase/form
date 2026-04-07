@@ -1,8 +1,16 @@
+<<<<<<< HEAD
+import Botao from '@/components/Botao'
+import styles from '@/constants/styles'
+import useFormUsuario from '@/hooks/useFormUsuario'
+import Cpf from '@/utils/Cpf'
+import { Text, TextInput, View } from 'react-native'
+=======
 import { Text, TextInput, View } from 'react-native'
 import Botao from '@/components/Botao'
 import Cpf from '@/utils/Cpf'
 import styles from '@/constants/styles'
 import useFormUsuario from '@/hooks/useFormUsuario'
+>>>>>>> 51d897754882961b8d093a96f585752ce2d11bf8
 
 export default function TelaFormulario() {
     const { usuario, erros, setUsuario, salvar } = useFormUsuario()
